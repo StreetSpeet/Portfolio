@@ -2,7 +2,7 @@
 {
   body{
     background-image: url("Pictures/backg.jpg");
-    background-size:contain;
+    background-size: 800px 600px no-repeat;
     background-attachment:fixed;
     font-family: -moz-system, Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
     font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
