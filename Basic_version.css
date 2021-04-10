@@ -50,7 +50,9 @@ h1, h2, h3{
 
 .img1{
   display:inline-block;
-  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  width: 70%;
   margin: 3% auto;
 }
 .first_name{
