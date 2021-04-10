@@ -17,6 +17,7 @@ class Carousel {
     this.carouselArray[2].classList.add('gallery-item-selected');
     this.carouselArray[3].classList.add('gallery-item-next');
     this.carouselArray[4].classList.add('gallery-item-last');
+    
 
     document.querySelector('.gallery-nav').childNodes[0].className = 'gallery-nav-item gallery-item-first';
     document.querySelector('.gallery-nav').childNodes[1].className = 'gallery-nav-item gallery-item-previous';
