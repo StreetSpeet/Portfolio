@@ -1,4 +1,4 @@
-@media only screen and (device-aspect-ratio)
+@media only screen and (device-aspect-ratio: 16/9)
 {
   body{
     background-image: image("Pictures/backg.jpg");
