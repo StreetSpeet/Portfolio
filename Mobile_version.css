@@ -1,7 +1,7 @@
-@media only screen and (orientation: portrait)
+@media only screen and (max-width: 650px )
 {
   body{
-    background-image: image("Pictures/backg.jpg");
+    background: url(Pictures/backg.jpg) no-repeat 100% 0;
   }
   h1, h2, h3{
     text-align: center;
