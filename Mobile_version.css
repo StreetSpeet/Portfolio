@@ -10,8 +10,12 @@
     color: #FFFFFF;
   }
 
+.box{
+min-width: 650px;
+min-height: 750px;
+}
 
-  .dropbrnl{
+.dropbrnl{
     background: rgba(127,252,0,0.2);
     border-radius: 15px;
     color: white;
@@ -20,12 +24,12 @@
     border: none;
     cursor: pointer;
   }
-  .dropdownlang{
+.dropdownlang{
     position: relative;
     display: inline-block;
     margin: 3% 70% -3% 80%;
   }
-  .dropdownlang-content{
+.dropdownlang-content{
     display: none;
     position: absolute;
     background: rgba(127,252,0,0.2);
@@ -34,49 +38,49 @@
     box-shadow: 0px 8px 16px 0px rgba(173, 255, 0, 0.2);
     z-index: 10000;
   }
-  .dropdownlang-content a{
+.dropdownlang-content a{
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  .dropdownlang-content a:hover{
+.dropdownlang-content a:hover{
     background:rgba(173, 255, 0, 0.3);
     border-radius: 15px;
   }
-  .show{display: block;}
+.show{display: block;}
 
 
 
-  .img1{
+.img1{
     display:inline-block;
     max-width: 150px;
     max-height: 150px;
     width: 50%;
     margin: 15% 20% 0% 25%;
   }
-  .first_name{
+.first_name{
     display: inline-block;
     margin: 5% 15% 1% 15%;
     color: #FFFFFF;
     font-size: 24px;
   }
-  .Date{
+.Date{
     display: inline-block;
     margin: 10% 25% 0% 25%;
     color: #FFFFFF;
   }
-  .date1{
+.date1{
     display: inline-block;
     margin: 5% 5% 0% 5% ;
     color: #FFFFFF;
   }
-  .Age{
+.Age{
     display: inline-block;
     margin: 0% 31% 0% 31% ;
     color: #FFFFFF;
   }
-  .location{
+.location{
     display: inline-block;
     margin: 15% 10% 0% 10% ;
     color: #FFFFFF;
@@ -84,10 +88,10 @@
 
 
 
-  .gallery{
+.gallery{
     width:100%;
   }
-  .gallery-container{
+.gallery-container{
     align-items: center;
     display: flex;
     height: 550px;
@@ -95,7 +99,7 @@
     max-width: 450px;
     position: relative;
   }
-  .gallery-item{
+.gallery-item{
     text-align: center;
     height: 50%;
     opacity: .4;
@@ -107,7 +111,7 @@
     border: 3px solid rgba(255, 255, 255, 0.6);
     background: url("Pictures/backg2.png")center/cover repeat;
   }
-  .gallery-item.gallery-item-selected {
+.gallery-item.gallery-item-selected {
     text-align: center;
     font-size: 14px;
     border-radius: 90px;
@@ -121,15 +125,15 @@
     background: url("Pictures/backg2.png")center/cover repeat;
   }
 
-  .gallery-item.gallery-item-previous,
-  .gallery-item.gallery-item-next {
+.gallery-item.gallery-item-previous,
+.gallery-item.gallery-item-next {
     height: 200px;
     opacity: 1;
     width: 200px;
     z-index: 1;
   }
 
-  .gallery-item.gallery-item-previous {
+.gallery-item.gallery-item-previous {
     left: 30%;
     font-size: 5%;
     transform: translateX(-50%);
