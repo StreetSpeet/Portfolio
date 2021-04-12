@@ -1,5 +1,8 @@
-@media only screen and (max-width: 650px )
+@media only screen and (device-aspect-ratio)
 {
+  body{
+    background-image: image("Pictures/backg.jpg");
+  }
   h1, h2, h3{
     text-align: center;
     color: #FFFFFF;
