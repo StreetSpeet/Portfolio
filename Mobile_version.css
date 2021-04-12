@@ -1,7 +1,9 @@
 @media only screen and (max-width: 650px )
 {
   body{
-    background: url(Pictures/backg.jpg) no-repeat 100% 0;
+  background-image: url("Pictures/backg.jpg");
+  background-size: cover;
+  background-position: center center;
   }
   h1, h2, h3{
     text-align: center;
