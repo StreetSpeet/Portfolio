@@ -1,10 +1,11 @@
-@media all and (max-width: 800px)
+@media all and (max-width: 650px )
 {
   body{
     background-image: url("Pictures/backg.jpg");
-    background-repeat: no-repeat;
+    background-repeat: inherit;
     background-attachment: fixed;
     background-position: center;
+    background-size: 65.9em;
     background-clip: border-box;
     font-family: -moz-system, Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
     font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
