@@ -1,8 +1,6 @@
 @media only screen and (max-width: 650px )
 {
-  body{
-    background-image: url("Pictures/backg.jpg");
-  }
+  
   h1, h2, h3{
     text-align: center;
     color: #FFFFFF;
