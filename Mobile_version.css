@@ -2,11 +2,10 @@
 {
   body{
     background-image: url("Pictures/backg.jpg");
-    background-repeat: inherit;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
-    background-size: 65.9em;
-    background-clip: border-box;
+    background-position: center center;
+    background-size: cover;
     font-family: -moz-system, Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
     font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
   }
