@@ -1,11 +1,14 @@
 body{
   background-image: url("Pictures/backg.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
-  background-position: center center;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  font-family: -moz-system, Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
-  font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+  height: 100%;
+  width: 100%; 
 }
 h1, h2, h3{
   text-align: center;
