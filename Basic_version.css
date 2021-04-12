@@ -1,4 +1,13 @@
-
+body{
+  background-image: url("Pictures/backg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
+  font-family: -moz-system, Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+}
 h1, h2, h3{
   text-align: center;
   color: #FFFFFF;
