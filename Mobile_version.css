@@ -1,12 +1,5 @@
 @media only screen and (max-width: 650px )
 {
-  body{
-    background-position: center center;
-    width:700px;
-    height: 600px;
-
-  }
-
   h1, h2, h3{
     text-align: center;
     color: #FFFFFF;
